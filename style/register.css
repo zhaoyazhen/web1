@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:13px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color:#9099c0;
+  margin-right:3px;
+}
+
+*{margin:0; padding:0;}
+body{min-height:875px; width:100%; background:#f3f5f6; font-size:12px; line-height:20px; font-family:"微软雅黑";}
+.whole{width:990px; height:798px; background:#fff; margin:20px auto; box-shadow:0 0 5px 2px #CCC;}
+.whole .head{width:310px; height:773px; margin:0 auto; position:relative;}
+.whole .head .logo{width:100%; text-align:center; padding:35px 0 40px 0;}
+.whole .head .logo a img{width:114px; height:50px;}
+.whole .head input{width:298px; height:40px; border:1px solid #d2d2d2; font-size:16px; color:#757575; line-height:40px; padding-left:10px; margin-bottom:30px; font-weight:200;}
+.whole .head .head-left{width:310px; height:44px; margin-bottom:30px;}
+.whole .head .head-left img{width:46px; height:44px; display:block; float:left; border:0 none;}
+.whole .head .head-left p{ width:264px; height:44px; line-height:44px; background:#e8e8e8; float:right; font-size:13px; color:#9c9c9c; cursor: inherit; text-align:center;}
+.whole .head .i i{font-size:24px; color:#d3d3d3; position:absolute; left:275px; top:360px;}
+.whole .head .middle{width:310px; height:22px; line-height:22px; background:#ecf9ff;}
+.whole .head .middle p{font-size:12px; color:#000000; margin-right:13px; padding-left:3px; float:left;}
+.whole .head .middle hr{width:18px; height:6px; background:#e2e2e2; float:left; margin-top:7px; border:1px solid #e2e2e2; margin-right:2px;}
+.whole .head .right{height:60px; margin-top:5px;}
+.whole .head .right p{height:20px; line-height:20px; color:#555;}
+.whole .head .reg-head{width:100%; height:86px; margin-bottom:16px; margin-top:30px;}
+.whole .head .reg-head p{ width:100%; height:24px; line-height:24px; font-size:15px; color:#757575; font-weight:200;}
+.whole .head .reg-head ul{width:100%; height:100%;}
+.whole .head .reg-head ul li{width:42px; height:42px; list-style:none; margin-left:8px;  cursor: pointer; float:left; margin-top:20px; position:relative;}
+.whole .head .reg-head ul li i{position:absolute; display:block; width:18px; height:18px; left:25px; top:0; color:#C00;}
+.whole .head .reg-head ul li img{width:42px; height:42px; border-radius:50%;}
+.whole .head .agree{width:13px; height:14px; display:block; float:left; margin-right:5px; margin-top:20px;}
+.whole .head span{ color:#a7a7a7; font-size:12px; height:14px; line-height:14px; float:left;margin-top:20px;}
+.whole .head span a{text-decoration:none;} 
+.whole .head .register{width:100%; height:96px;}
+.whole .head .register a{text-decoration:none;}
+.whole .head .register a input{width:100%; height:36px; background:#e73441; font-size: 18px; color: #fff; border-radius:5px; text-align:center; line-height:36px; margin-top:-20px; cursor:pointer; outline: none;}
+.whole .head .register p{ margin-top:-5px; text-align:center; color:#757575;}
+.whole .head .register p a{color:#e73441;}
+.whole .foot{ width:100%;line-height:24px; text-align:center; padding:40px 0 10px 0;}
+.whole .foot p{text-align:center; color:#757575;}
+.whole .foot p a{color:#757575;}

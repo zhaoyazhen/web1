@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="齐心商城-办公用品一站式采购,齐心渠道，批发商城，分销商城，电子商务解决方案">
+<meta name="description" content="齐心渠道宝一站式网上办公用品采购平台">
+<meta name="author" content="赵亚珍">
+<title>购物车信息</title>
+<link rel="shortcut icon" href="favicon .ico" type="image/icon">
+<link rel="stylesheet" type="text/css" href="style/shopcar.css">
+<script src="js/jquery1.42.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<style type="text/css">
+		/* 本例子css */
+		.slideTxtBox{ width:990px;text-align:left;  }
+		.slideTxtBox .hd{ height:80px; line-height:80px; background:#f4f4f4; padding:0 10px 0 20px;   border-bottom:3px solid red;  position:relative; }
+		.slideTxtBox .hd
+		.slideTxtBox .hd ul{ float:left;  position:absolute; left:20px; top:-1px; height:32px;   }
+		.slideTxtBox .hd ul li{ float:left; padding:0 15px; cursor:pointer;  }
+		.slideTxtBox .hd ul li.on{ height:80px;  color:green; background:#fff; border:1px solid #ddd; border-bottom:2px solid blue; }
+		
+		.slideTxtBox .bd ul{ padding:15px;  zoom:1;  }
+		.slideTxtBox .bd li{ height:24px; line-height:24px;   }
+		.slideTxtBox .bd li .date{ float:right; color:#999;  }
+
+		
+
+		</style>
+</head>
+
+<body>
+<div class="nav-box">
+   <div class="nav">
+        <div class="nav-left">
+           <ul>
+              <li class="star"> <b class="iconfont">&#xe60c;</b><a href="#">集团官网</a> </li>
+              <li> <b class="iconfont">&#xe629;</b><a href="#">投资者关系</a> </li>
+              <li> <b class="iconfont">&#xe636;</b><a href="#">English</a> </li>
+              <li class="map"> <b class="iconfont">&#xe602;</b><a href="#">河南[切换城市]</a>
+                <div class="submenu"> <a href="#">北京</a><a href="#">上海</a><a href="#">天津</a><a href="#">重庆</a><a href="#">河北</a><a href="#">山西</a><a href="#">河南</a><a href="#">辽宁</a><a href="#">吉林</a><a href="#">黑龙江</a><a href="#">内蒙古</a><a href ="#">江苏</a><a href="#">山东</a><a href="#"> 安徽</a><a href="#">浙江</a><a href="#">福建</a><a href="#">湖南</a><a href="#">湖北</a><a href="#">广东</a><a href="#">广西</a><a href="#">江西</a><a href="#">四川</a><a href="#">海南</a><a href="#">贵州</a><a href="#">云南</a><a href="#">西藏</a><a href="#">陕西</a><a href="#"> 甘肃</a><a href="#">青海</a><a href="#">宁夏</a><a href="#">新疆</a><a href="#">港澳</a><a href="#">台湾</a><a href="#">海外</a> </div>
+              </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="login"> <a href="#">您好,赵亚珍[退出]</a> </div>
+            <ul>
+                <li><a href="#">我的订单</a></li>
+                <li> <b class="iconfont">&#xe619;</b><a href="#">微信商城</a> <img src="images/qrcode.png"> </li>
+                <li> <b class="iconfont">&#xe60b;</b><a href="#">齐心支付</a></li>
+                <li class="web-dh"> <b class="iconfont">&#xe61f;</b> <a href="#">网站导航<i class="iconfont">&#xe62d;</i></a>
+                  <div class="submenu">
+                    <p><b>第三方平台</b><a href="#">齐心京东</a></p>
+                    <p><b>个人与企业</b><a href="#">齐心商城</a><a href="#">合约客户</a><a href="#">供应链关系</a> </p>
+                    <p><b>批发市场</b><a href="#">齐心渠道</a><a href="#">合约乐购</a><a href="#">员工内购</a> </p>
+                    <p><b>齐心集团</b><a href="#">集团官网</a><a href="#">麦苖网络</a><a href="#">银澎云计算</a> </p>
+                    <p><b class="big">产业创投</b><a href="#">阳光印网</a><a href="#">一览网络</a><a href="#">九恒星科技</a><a href="#">大贲科技</a><a href="#">神州云动</a><a href="#">犀思云</a><a href="#">齐采网</a><a href="#">点点租</a> </p>
+                  </div>
+                </li>
+             </ul>
+        </div>
+    </div>
+</div>
+<div class="head clearfix">
+    <div class="shop">
+        <div class="shop-left">
+            <a href="#"><img src="images/shop1.png"/></a>
+        </div>
+        <div class="process">
+            <img src="images/shop2.png"/>
+            <ul>
+                <li style="color:#7abd54;">1.我的购物车</li>
+                <li>2.填写核对订单信息</li>
+                <li>3.成功提交订单</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section clearfix">
+     <h2>我的购物车</h2>
+     <div class="list">
+         <ul class="list-item">
+             <li><input type="checkbox" checked/><a href="#">全选</a></li>
+             <li style="margin-right:98px;">商品/商品规格</li>
+             <li>型号</li>
+             <li>颜色</li>
+             <li>单价</li>
+             <li>单位</li>
+             <li>数量</li>
+             <li>小计数量</li>
+             <li>小计金额</li>
+             <li>操作</li>
+         </ul>
+     </div>
+     <div class="section1">
+        <input type="checkbox" checked/><p>深圳齐心集团股份有限公司</p>
+     </div>
+</div>
+<div class="shop-main clearfix">
+      <ul class="main">
+           <input type="checkbox" checked/>
+           <li><img src="images/shop4.jpg"/></li>
+           <li class="main1">怡口莲 亿滋怡口莲巧克力夹心太妃糖原味318g罐装
+               <p>商品编码: 607009</p>
+           </li>
+           <li>318g</li>
+           <li style="color:#cc0000; margin-left:125px; font-weight:600;">￥30.00</li>
+           <li class="main2">
+              <div class="Change">		
+                 <a href="#"> + </a>
+              </div>
+              <h4>1</h4>
+              <div class="Change">		
+                <a href="#"> - </a>
+              </div>
+           </li>
+           <li style="color:#cc0000; font-weight:600;">1</li>
+           <li style="color:#cc0000; margin-left:74px; font-weight:600;">￥30.00</li>
+           <li><a href="#">删除</a></li>
+      </ul>
+      <ul class="main">
+           <input type="checkbox" checked/>
+           <li><img src="images/shop5.jpg"/></li>
+           <li class="main1"> Ferrero Rocher费列罗榛果威化巧克力5粒62.5g
+               <p>商品编码: 476008 </p>
+           </li>
+           <li>318g</li>
+           <li style="color:#cc0000; margin-left:125px; font-weight:600;">￥30.00</li>
+           <li class="main2">
+              <div class="Change">		
+                 <a href="#"> + </a>
+              </div>
+              <h4>1</h4>
+              <div class="Change">		
+                <a href="#"> - </a>
+              </div>
+           </li>
+           <li style="color:#cc0000; font-weight:600;">1</li>
+           <li style="color:#cc0000; margin-left:74px; font-weight:600;">￥30.00</li>
+           <li><a href="#">删除</a></li>
+      </ul>
+      <ul class="main">
+           <input type="checkbox" checked/>
+           <li><img src="images/shop6.jpg"/></li>
+           <li class="main1"> 不二家 牛奶大棒棒糖 香醇牛奶+乳酸牛奶+奶茶+巧克力牛奶 280g
+               <p>商品编码: 472003 </p>
+           </li>
+           <li>318g</li>
+           <li style="color:#cc0000; margin-left:125px; font-weight:600;">￥30.00</li>
+           <li class="main2">
+              <div class="Change">		
+                 <a href="#"> + </a>
+              </div>
+              <h4>1</h4>
+              <div class="Change">		
+                <a href="#"> - </a>
+              </div>
+           </li>
+           <li style="color:#cc0000; font-weight:600;">1</li>
+           <li style="color:#cc0000; margin-left:74px; font-weight:600;">￥30.00</li>
+           <li><a href="#">删除</a></li>
+      </ul>
+</div>
+<div class="bottom">
+    <div class="bottom-left">
+        <ul>
+            <li><input type="checkbox" checked/><a href="#">全选</a></li>
+            <li><a href="#">删除</a></li>
+            <li><a href="#">清空购物车</a></li>
+        </ul>
+    </div>
+    <div class="bottom-right">
+       <h3>总计：</h3>
+       <p>¥90.00</p>
+    </div>
+</div>
+<div class="last clearfix">
+   <p><a href="#">继续购物</a></p>
+   <span><a href="#">去结算<i class="iconfont" style="color:#fff; font-size:18px;">&#xe62e;</i></a></span>
+</div>
+<div class="foot">
+     <h4><a href="#"> 关于齐心 </a> | <a href="#"> 友情链接</a> | <a href="#"> English Site</a></h4>
+     <p>粤ICP备05143967号 增值电信业务经营许可证：粤B1.B2-20150312</p>
+     <p>Copyright &copy 2018 深圳齐心集团股份有限公司(002301.SZ) 版权所有</p>
+</div>
+</body>
+</html>
